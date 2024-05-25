@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola da Turma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="images/logo.webp" alt="Logo da Escola da Turma">
+        </div>
+    </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about"><img src="/images/about.png" alt="Sobre a escola"/><h3>Sobre Nós</h3></a>
+                </li>
+                <li>
+                    <a href="#register"><img src="/images/family.png" alt="Registro de Pais"/><h3>Registro de Alunos</h3></a>
+                </li>
+                <li>
+                    <a href="#more"><img src="/images/more_info.png" alt="Mais informações"/><h3>Mais informações</h3></a>
+                </li>
+            </ul>
+        </nav>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <img class="kids_playing" src="./images/escola_crianca.jpg" alt="Crianças interagindo">
+                <div>
+                    <h2>Sobre Nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos earum officiis in placeat illo corporis necessitatibus illum molestiae, suscipit libero, temporibus ipsa et nemo assumenda obcaecati harum possimus fuga.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dignissimos earum officiis in placeat illo corporis necessitatibus illum molestiae, suscipit libero, temporibus ipsa et nemo assumenda obcaecati harum possimus fuga.</p>
+                </div>
+            </div>
+        </section>
+        <section id="register">      
+            <img src="./images/crianca.png" alt="Criança animada">        
+            <h2>Registro de Pais e Alunos</h2>
+            <form id="form-register">
+                <label for="nome_aluno">Nome do Aluno</label>
+                <input type="text" id="nome_aluno" required placeholder="Juninho">
+                <label for="nome_responsavel">Nome do Responsável</label>
+                <input type="text" id="nome_responsavel" required placeholder="Nome do resposnavel pela crianca">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" required placeholder="(xx) 0000-0000">
+                <button type="submit">Adicionar</button>
+            </form>
+            <table cellspacing="10">
+                <thead>
+                    <tr>
+                        <th>Nome do Aluno</th>
+                        <th>Nome do Responsável</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+        <section id="more">
+            <h2>Mais informações</h2>
+            <div id="information">
+                <div class="more_info">
+                    <h3>Fale Conosco</h3>
+                    <p>Telefone</p>
+                    <p>Email</p>
+                </div>
+                <div class="alunos_info">
+                    <h3>Alunos</h3>
+                    <p>Notas</p>
+                    <p>Cursos adicionais</p>
+                </div>
+                <div class="teachers">
+                    <h3>Professores</h3>
+                    <p>Portal do Professor</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>&copy; Escola da Turma - Todos os direitos reservados</h2>
+            <p>Site desenvolvido por Sarion Moraes - 2024</p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
